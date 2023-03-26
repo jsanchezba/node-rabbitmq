@@ -1,0 +1,30 @@
+{
+  "name": "rabbitmq-consumer",
+  "version": "1.0.0",
+  "description": "NodeJS RabbitMQ Consumer",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsanchezba/node-rabbitmq.git"
+  },
+  "author": "Joan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsanchezba/node-rabbitmq/issues"
+  },
+  "homepage": "https://github.com/jsanchezba/node-rabbitmq#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.0.3",
+    "pino": "^8.11.0",
+    "pino-pretty": "^10.0.0"
+  },
+  "imports": {
+    "#config/*": "./config/*.js"
+  }
+}
